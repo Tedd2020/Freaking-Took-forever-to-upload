@@ -1,0 +1,306 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <link rel="stylesheet" href="fonts.html">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Kanit&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Reno.com</title>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script>
+    $(document).ready(function() {
+        // Toggle mobile menu
+        $(".nav-menu-toggle").click(function() {
+            $(".nav-menu").toggleClass("active");
+        });
+    
+        // Smooth scrolling for anchor links
+        $("a[href^='#']").on("click", function(e) {
+            e.preventDefault();
+            var target = this.hash;
+            var $target = $(target);
+            $("html, body").animate(
+                {
+                    scrollTop: $target.offset().top
+                },
+                1000
+            );
+            $(".nav-menu").removeClass("active"); // Close mobile menu on link click
+        });
+    });
+    </script> 
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,400;1,100&family=Manrope&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,400;1,100&family=Manrope&display=swap" rel="stylesheet">   
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,400;1,100&family=Manrope&family=Nanum+Gothic&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,400;1,100&family=Manrope&family=Nanum+Gothic&display=swap" rel="stylesheet">
+
+</head>
+<body>
+    <header class="header-container">
+    <div>
+        <div class="nav-cont">
+            <ul class="nav-menu">
+                <li class="logo">
+                    <div class="weneed">RENO</div>
+                </li>
+                <li>
+                  <a href="#contractors">contractors</a>
+                </li>
+                <li>
+                    <a href="Services.html">Services</a>
+                </li>
+                <li>
+                    <a href="Gallery.html">Gallery</a>
+                </li>
+            </ul>
+        </div>        
+    </div>
+    <div class="logss">
+        <li class="log-in">
+          <a class="log-t shared-text-styles" href="login.html">Log In</a>
+        </li>
+        <div class="estimates">
+          <li class="get-your-estimate">
+            <a class="GET shared-text-styles" href="Services.html">Get Your Estimate</a>
+          </li>
+        </div>
+      </div>      
+    </div>
+    <div class="nav-menu-toggle">
+      <div class="bar"></div>
+      <div class="bar"></div>
+      <div class="bar"></div>
+  </div>
+    </header>
+    <div class="content-container">
+        <section class="section">
+          <div class="rave">
+            RENO
+          </div>
+          <div class="div-cont">
+            <div class="text1">Renovations Simplified</div>
+            <div class="text2">A streamlined platform to design, plan, and build—all in one place</div>
+            <div class="esteem-tru">
+              <li class="esteem">
+                <a class="esteem shared-text-styles" href="Services.html">Get Your Estimate</a>
+              </li>
+            </div>
+          </div>          
+        </section>
+        <div class="image-container">
+          <img class="img1" src="imgs/Rectangle 1.png" alt="">
+          <img class="img2" src="imgs/I72dFJRFT3k.png" alt="">
+        </div>
+      </div>
+      <section  id="contractors">
+        <div class="make-one">
+          contractors
+        </div>
+        <div class="worldwrap" style="width: 100%; height: 100%; position: relative; background: #a6acac">
+          <div class="cramp">
+            <div class="cs11">
+              <img class="classy" src="imgs/Press01.png" />
+              <div class="cs">"reno is here to simplify the process."</div>
+            </div>
+            <div class="cs22">
+              <img class="classy2" src="imgs/Press02.png" />
+              <div class="cs2" >"In addition to getting a contractor, you're also getting the eye of a design professional."</div>
+            </div>
+              <div class="cs33">
+                <img class="classy3" src="imgs/Press03.png" />
+                <div class="cs3">"Streamlining timely aspects like layout, materials selection, and building approvals"</div>
+              </div>
+              <div class="cs44">
+                <img class="classy4" src="imgs/Press04.png" />
+                <div class="cs4">“This startup is on a mission to make home renovations easier"</div>
+              </div>
+          </div>
+        </div>
+      </section>
+      <section class="outline">
+      </section>
+      <main>
+        <section class="doodle">
+            <div class="narc">
+                <div class="simplee">
+                    A simple and streamlined process
+                </div>
+                <div class="whiles">
+                    <div class="use">Use our tools to plan, design, and build your renovation with the industry's top designers and contractors.</div>
+                    <div class="How">How does it work?</div>
+                </div>
+            <div class="img-cont dam1"> 
+              <div class="img-box">
+                <img src="imgs/Process 01.png" alt="">
+                <div class="o1"><img src="imgs/01.png" alt=""></div>
+                <div class="des">Plan</div>
+                <div class="kaz">Work with a Block Project Planner to receive a custom proposal tailored to your renovation goals with a detailed scope of work.</div>
+            </div>
+            <div class="img-box dam2">
+              <img class="processs" src="imgs/Process 02.png" alt="">
+              <div class="o1"><img src="imgs/02.png" alt=""></div>
+                <div class="des">Design</div>
+                <div class="kaz">Use our curated design system and access our in-house designers to bring your space to life. We’ll order the materials and prepare your renovation for the day of break ground.</div>
+            </div>
+            <div class="img-box dam3">
+              <img src="imgs/Process 03.png" alt="">
+              <div class="o1"><img src="imgs/03.png" alt=""></div>
+                <div class="des">Build</div>
+                <div class="kaz">We’ve built relationships with the best, local contractors in your area. They’re 100% licensed and insured–and they’ll provide milestone updates throughout the build.</div>
+            </div>
+            </div>
+            </div>
+          </div>
+        </section>
+      </main>
+      <section>
+        <div>
+            <img class="kddee" src="imgs/kddee.png" alt="">
+            <div class="wc">
+              <div class="sit">
+                  <div><img class="star_rate" src="imgs/star_rate.png"  alt=""></div>
+                  <div><img class="star_rate" src="imgs/star_rate.png"  alt=""></div>
+                  <div><img class="star_rate" src="imgs/star_rate.png"  alt=""></div>
+                  <div><img class="star_rate" src="imgs/star_rate.png"  alt=""></div>
+                  <div><img class="star_rate" src="imgs/star_rate.png"  alt=""></div>
+              </div>
+              <div class="general">
+                <div class="matched">Reno matched me to a great contractor who was able to renovate my kitchen while I lived at home during the pandemic.</div>
+                <div class="Linda">— Linda R.</div>
+                <div><img class="arrow1" src="imgs/Arrow Left.png" alt=""></div>
+                <div><img class="arrow2" src="imgs/Arrow Right.png" alt=""></div>
+              </div>
+          </div>
+      </div>
+      <div class="hellonearth">
+          Get your Estimate
+      </div>
+        </div>
+      </section>
+      <section class="section-cont1">
+        <img class="green-pic" src="imgs/small3.jpg" alt="">
+        <div class="onto-img">
+          <div class="Options">Our Options</div>
+          <div class="Options-2">Here is a look at a few of our Options</div>
+        </div>
+        <div class="looks">
+          Take a Look
+        </div>
+        <section class="gal-sec">
+        <div class="galss">
+            <div class="row">
+                <div class="gal-item1">
+                    <img class="gal" src="imgs/gal11.webp" alt="">
+                    <div class="small-gals">
+                        <div class="title-gal">Bathroom</div>
+                        <div class="WEEKS">4 WEEKS TO BUILD</div>
+                        <div class="week-text">Build your dream bathroom with premium fixtures and finishes.</div>
+                        <div class="Learn"><a href="Gallery.html">Learn More</a></div>
+                    </div>
+                </div>
+                <div class="gal-item2">
+                    <img class="gal" src="imgs/gal22.jpg" alt="">
+                    <div class="small-gals">
+                        <div class="title-gal">Kitchen</div>
+                        <div class="WEEKS">6 WEEKS TO BUILD</div>
+                        <div class="week-text">Create your ideal kitchen with quality, lasting materials.</div>
+                        <div class="Learn"><a href="Gallery.html">Learn More</a></div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="gal-item3">
+                    <img class="gal" src="imgs/gal33.jpg" alt="">
+                    <div class="small-gals">
+                        <div class="title-gal">Backyard</div>
+                        <div class="WEEKS">5 WEEKS TO BUILD</div>
+                        <div class="week-text">Create your backyard getaway with durable materials and beautiful finishes.</div>
+                        <div class="Learn"><a href="Gallery.html">Learn More</a></div>
+                    </div>
+                </div>
+                <div class="gal-item4">
+                    <img class="gal" src="imgs/gal44.jpg" alt="">
+                    <div class="small-gals">
+                        <div class="title-gal">Basement</div>
+                        <div class="WEEKS">7 WEEKS TO BUILD</div>
+                        <div class="week-text">Create your backyard getaway with durable materials and beautiful finishes.</div>
+                        <div class="Learn"><a href="Gallery.html">Learn More</a></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="section-cont">
+      <div class="grid-cont">
+        <div class="grid-column1">
+          <div class="divc11 share"> <img src="imgs/divc11.png" alt=""></div>
+          <div class="divc22 share"> <img src="imgs/divc22.png" alt=""></div>
+          <div class="divc33 share"> <img src="imgs/divc33.png" alt=""></div>
+        </div>
+        <div class="grid-column2">
+          <div class="divc1 share"> <img src="imgs/divc1.png" alt=""></div>
+          <div class="divc2 share"> <img src="imgs/divc2.png" alt=""></div>
+          <div class="divc3 share"> <img src="imgs/divc3.png" alt=""></div>
+        </div>
+      </div>
+      <div class="Div-conte">
+        <div class="look">Look at what we’ve done!</div>
+        <div class="Discover">Discover what clients were able to achieve with Reno.</div>
+        <div class="Learn2"><a href="Gallery.html">View Project Gallery</a></div>
+      </div>
+    </section>
+      <footer class="whatteee">
+        <div class="gallery2s">
+          <div class="full">
+            <div class="race">Let’s work on your project together!</div>
+            <div class="Learn3"><a class="cells" href="schedule.html">Schedule a call</a></div>
+          </div>
+          <div class="abandoned">hello@reno.com</div>
+        </div>
+        <div class="fdiv1">
+          <div class="fcol1 g">
+            <div class="depth1">We’re redefining what it means to renovate.</div>
+            <div class="depth2">reno</div>
+          </div>
+          <div class="fcol2 g">
+            <div class="line"></div>
+            <div class="death">Reno simplifies the chaos and costs of construction by bringing design, sourcing, and vetted contractors all under one roof.</div>
+            <div class="death2">© Reno 2021</div>
+          </div>
+          <div class="fcol3 g">
+            <div class="line"></div>
+            <div class=" p"><a  class="p I" href="Gallery.html">Bathrooms</a></div>
+            <div class="p I"><a  class="p I" href="Gallery.html">Kitchens</a></div>
+            <div class="p I"><a  class="p I" href="Gallery.html">Backyards</a></div>
+            <div class="p I"><a  class="p I" href="Gallery.html">Basements</a></div>
+            <div class="p I"><a  class="p I" href="Services.html">Services</a></div>
+            <div class="p I"><a  class="p I" href="Gallery.html">Gallery</a></div>
+            <div class="p I"><a  class="p I" href="faq.html">FAQ</a></div>
+          </div>
+          <div class="fcol4 g">
+            <div class="line"></div>
+            <div class="awh"><span>Call (480) 844-7544</span></div>
+            <div class="awh2"><span>hello@reno.com</span></div>
+          </div>
+          <div class="fcol5 g">
+            <div class="line"></div>
+            <div class="madness"><a href=""></a>Terms of Use</div>
+            <div class="madness2"><a href=""></a>Privacy Policy</div>
+          </div>
+        </div>
+      </footer>   
+</body>
+</html>
